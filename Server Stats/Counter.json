@@ -1,0 +1,59 @@
+{
+  "name": "Counter",
+  "temp": "",
+  "event-type": "6",
+  "_id": "sTiNE",
+  "actions": [
+    {
+      "comment": "<u>If you need support contact me on discord: GoodOne#7863<u>",
+      "color": "#ff0000",
+      "name": "Comment"
+    },
+    {
+      "comment": "━━━━━━━━━━━━━━━━━━━==[Actions]==━━━━━━━━━━━━━━━━━━",
+      "color": "#ffffff",
+      "name": "Comment"
+    },
+    {
+      "comment": "⬇ Change this ⬇",
+      "color": "#ffff00",
+      "name": "Comment"
+    },
+    {
+      "info": "0",
+      "find": "775330970386825266",
+      "storage": "1",
+      "varName": "voice channel",
+      "name": "Find Voice Channel"
+    },
+    {
+      "comment": "⬆ Change this ⬆",
+      "color": "#ffff00",
+      "name": "Comment"
+    },
+    {
+      "server": "0",
+      "varName": "",
+      "info": "35",
+      "storage": "1",
+      "varName2": "humans count",
+      "name": "Store Server Info"
+    },
+    {
+      "channel": "3",
+      "varName": "voice channel",
+      "info": "2",
+      "storage": "1",
+      "varName2": "voice channel name",
+      "name": "Store Voice Channel Info"
+    },
+    {
+      "storage": "3",
+      "varName": "voice channel",
+      "channelType": "1",
+      "toChange": "0",
+      "newState": "${tempVars(\"voice channel name\")} ${tempVars(\"humans count\")}",
+      "name": "Edit Channel"
+    }
+  ]
+}
